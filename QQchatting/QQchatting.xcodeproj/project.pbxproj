@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		694270E91B3F9D9100586B5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 694270E81B3F9D9100586B5F /* main.m */; };
+		694270EC1B3F9D9100586B5F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 694270EB1B3F9D9100586B5F /* AppDelegate.m */; };
+		694270EF1B3F9D9100586B5F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 694270EE1B3F9D9100586B5F /* ViewController.m */; };
+		694270F21B3F9D9100586B5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 694270F01B3F9D9100586B5F /* Main.storyboard */; };
+		694270F41B3F9D9100586B5F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 694270F31B3F9D9100586B5F /* Images.xcassets */; };
+		694270F71B3F9D9100586B5F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 694270F51B3F9D9100586B5F /* LaunchScreen.xib */; };
+		694271031B3F9D9100586B5F /* QQchattingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 694271021B3F9D9100586B5F /* QQchattingTests.m */; };
+		6942710D1B3F9DE400586B5F /* messages.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6942710C1B3F9DE400586B5F /* messages.plist */; };
+		694271101B3F9E5100586B5F /* MessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6942710F1B3F9E5100586B5F /* MessageModel.m */; };
+		694271131B3FF3CF00586B5F /* MessageFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 694271121B3FF3CF00586B5F /* MessageFrame.m */; };
+		694271161B40000900586B5F /* MessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 694271151B40000900586B5F /* MessageCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		694270FD1B3F9D9100586B5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 694270DB1B3F9D9100586B5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 694270E21B3F9D9100586B5F;
+			remoteInfo = QQchatting;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		694270E31B3F9D9100586B5F /* QQchatting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QQchatting.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		694270E71B3F9D9100586B5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		694270E81B3F9D9100586B5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		694270EA1B3F9D9100586B5F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		694270EB1B3F9D9100586B5F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		694270ED1B3F9D9100586B5F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		694270EE1B3F9D9100586B5F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		694270F11B3F9D9100586B5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		694270F31B3F9D9100586B5F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		694270F61B3F9D9100586B5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		694270FC1B3F9D9100586B5F /* QQchattingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QQchattingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		694271011B3F9D9100586B5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		694271021B3F9D9100586B5F /* QQchattingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQchattingTests.m; sourceTree = "<group>"; };
+		6942710C1B3F9DE400586B5F /* messages.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = messages.plist; sourceTree = "<group>"; };
+		6942710E1B3F9E5100586B5F /* MessageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageModel.h; sourceTree = "<group>"; };
+		6942710F1B3F9E5100586B5F /* MessageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageModel.m; sourceTree = "<group>"; };
+		694271111B3FF3CF00586B5F /* MessageFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageFrame.h; sourceTree = "<group>"; };
+		694271121B3FF3CF00586B5F /* MessageFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageFrame.m; sourceTree = "<group>"; };
+		694271141B40000900586B5F /* MessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageCell.h; sourceTree = "<group>"; };
+		694271151B40000900586B5F /* MessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		694270E01B3F9D9100586B5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		694270F91B3F9D9100586B5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		694270DA1B3F9D9100586B5F = {
+			isa = PBXGroup;
+			children = (
+				694270E51B3F9D9100586B5F /* QQchatting */,
+				694270FF1B3F9D9100586B5F /* QQchattingTests */,
+				694270E41B3F9D9100586B5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		694270E41B3F9D9100586B5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				694270E31B3F9D9100586B5F /* QQchatting.app */,
+				694270FC1B3F9D9100586B5F /* QQchattingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		694270E51B3F9D9100586B5F /* QQchatting */ = {
+			isa = PBXGroup;
+			children = (
+				694270EA1B3F9D9100586B5F /* AppDelegate.h */,
+				694270EB1B3F9D9100586B5F /* AppDelegate.m */,
+				6942710E1B3F9E5100586B5F /* MessageModel.h */,
+				6942710F1B3F9E5100586B5F /* MessageModel.m */,
+				694271111B3FF3CF00586B5F /* MessageFrame.h */,
+				694271121B3FF3CF00586B5F /* MessageFrame.m */,
+				694271141B40000900586B5F /* MessageCell.h */,
+				694271151B40000900586B5F /* MessageCell.m */,
+				694270ED1B3F9D9100586B5F /* ViewController.h */,
+				694270EE1B3F9D9100586B5F /* ViewController.m */,
+				694270F01B3F9D9100586B5F /* Main.storyboard */,
+				694270F31B3F9D9100586B5F /* Images.xcassets */,
+				694270F51B3F9D9100586B5F /* LaunchScreen.xib */,
+				694270E61B3F9D9100586B5F /* Supporting Files */,
+			);
+			path = QQchatting;
+			sourceTree = "<group>";
+		};
+		694270E61B3F9D9100586B5F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6942710C1B3F9DE400586B5F /* messages.plist */,
+				694270E71B3F9D9100586B5F /* Info.plist */,
+				694270E81B3F9D9100586B5F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		694270FF1B3F9D9100586B5F /* QQchattingTests */ = {
+			isa = PBXGroup;
+			children = (
+				694271021B3F9D9100586B5F /* QQchattingTests.m */,
+				694271001B3F9D9100586B5F /* Supporting Files */,
+			);
+			path = QQchattingTests;
+			sourceTree = "<group>";
+		};
+		694271001B3F9D9100586B5F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				694271011B3F9D9100586B5F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		694270E21B3F9D9100586B5F /* QQchatting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 694271061B3F9D9100586B5F /* Build configuration list for PBXNativeTarget "QQchatting" */;
+			buildPhases = (
+				694270DF1B3F9D9100586B5F /* Sources */,
+				694270E01B3F9D9100586B5F /* Frameworks */,
+				694270E11B3F9D9100586B5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QQchatting;
+			productName = QQchatting;
+			productReference = 694270E31B3F9D9100586B5F /* QQchatting.app */;
+			productType = "com.apple.product-type.application";
+		};
+		694270FB1B3F9D9100586B5F /* QQchattingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 694271091B3F9D9100586B5F /* Build configuration list for PBXNativeTarget "QQchattingTests" */;
+			buildPhases = (
+				694270F81B3F9D9100586B5F /* Sources */,
+				694270F91B3F9D9100586B5F /* Frameworks */,
+				694270FA1B3F9D9100586B5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				694270FE1B3F9D9100586B5F /* PBXTargetDependency */,
+			);
+			name = QQchattingTests;
+			productName = QQchattingTests;
+			productReference = 694270FC1B3F9D9100586B5F /* QQchattingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		694270DB1B3F9D9100586B5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = zhaimengyang;
+				TargetAttributes = {
+					694270E21B3F9D9100586B5F = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					694270FB1B3F9D9100586B5F = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 694270E21B3F9D9100586B5F;
+					};
+				};
+			};
+			buildConfigurationList = 694270DE1B3F9D9100586B5F /* Build configuration list for PBXProject "QQchatting" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 694270DA1B3F9D9100586B5F;
+			productRefGroup = 694270E41B3F9D9100586B5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				694270E21B3F9D9100586B5F /* QQchatting */,
+				694270FB1B3F9D9100586B5F /* QQchattingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		694270E11B3F9D9100586B5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6942710D1B3F9DE400586B5F /* messages.plist in Resources */,
+				694270F21B3F9D9100586B5F /* Main.storyboard in Resources */,
+				694270F71B3F9D9100586B5F /* LaunchScreen.xib in Resources */,
+				694270F41B3F9D9100586B5F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		694270FA1B3F9D9100586B5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		694270DF1B3F9D9100586B5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				694270EF1B3F9D9100586B5F /* ViewController.m in Sources */,
+				694270EC1B3F9D9100586B5F /* AppDelegate.m in Sources */,
+				694271131B3FF3CF00586B5F /* MessageFrame.m in Sources */,
+				694271161B40000900586B5F /* MessageCell.m in Sources */,
+				694270E91B3F9D9100586B5F /* main.m in Sources */,
+				694271101B3F9E5100586B5F /* MessageModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		694270F81B3F9D9100586B5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				694271031B3F9D9100586B5F /* QQchattingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		694270FE1B3F9D9100586B5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 694270E21B3F9D9100586B5F /* QQchatting */;
+			targetProxy = 694270FD1B3F9D9100586B5F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		694270F01B3F9D9100586B5F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				694270F11B3F9D9100586B5F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		694270F51B3F9D9100586B5F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				694270F61B3F9D9100586B5F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		694271041B3F9D9100586B5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		694271051B3F9D9100586B5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		694271071B3F9D9100586B5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QQchatting/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		694271081B3F9D9100586B5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QQchatting/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6942710A1B3F9D9100586B5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = QQchattingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QQchatting.app/QQchatting";
+			};
+			name = Debug;
+		};
+		6942710B1B3F9D9100586B5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = QQchattingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QQchatting.app/QQchatting";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		694270DE1B3F9D9100586B5F /* Build configuration list for PBXProject "QQchatting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				694271041B3F9D9100586B5F /* Debug */,
+				694271051B3F9D9100586B5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		694271061B3F9D9100586B5F /* Build configuration list for PBXNativeTarget "QQchatting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				694271071B3F9D9100586B5F /* Debug */,
+				694271081B3F9D9100586B5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		694271091B3F9D9100586B5F /* Build configuration list for PBXNativeTarget "QQchattingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6942710A1B3F9D9100586B5F /* Debug */,
+				6942710B1B3F9D9100586B5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 694270DB1B3F9D9100586B5F /* Project object */;
+}
